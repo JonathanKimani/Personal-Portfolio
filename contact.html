@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@200..800&family=Red+Rose:wght@300..700&display=swap" rel="stylesheet">
+
+    <style>
+ body{ background-repeat: no-repeat;
+          background-position: center;  
+          background-attachment: fixed;
+          font-family: "DM Serif Display", serif;
+        }
+          
+    .menu{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        padding-top: 0;
+        padding-bottom: 20px;
+        background-color: transparent;
+        align-items: center;
+        gap: 40px;
+        font-family: "DM Serif Display", serif;
+          font-weight: 500;
+          font-style: italic;
+    }
+    .gr{ 
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        padding: 0;
+        margin: 0;
+    }
+    .gr li a {
+     text-decoration: none;
+     color: #ac654c;
+      font-size: 18px;
+
+      /* a transition so that when you click on the links on the nav bar it looks smooth */
+
+    }
+    nav a:hover{
+     color: #2d4a3e;
+     transition: ease-in 0.6s;
+    }
+
+    /* the line in between the nav age links that looks very nice */
+
+    .aniceline{flex: 1;
+     height: 3px;
+     border-radius: 5px;
+     background-color: #2d4a3e;
+     max-width: 200px;
+    }
+    .anicelines{flex: 1;
+     height: 3px;
+     border-radius: 5px;
+     background-color: #2d4a3e;
+     max-width: 680px;}
+
+
+     .ANICELOOKINGFORM {
+  background-color: #eeeae7; 
+  border-radius: 70px;
+  padding: 46px;
+  width: 400px;
+  margin: 50px auto;
+  
+}
+
+h1 {
+   text-align: center;
+     color: #2d4a3e;
+}
+
+
+     </style>
+     </head>
+
+<body style="background-image: url(Beige\ Minimalist\ Personal\ Portfolio\ Presentation.png); margin: 0;padding: 0;">
+    <!-- navbarrrr -->
+
+
+    <nav class="menu">
+        <div class="aniceline"></div>
+        <ul class="gr" style="font-size: 19px;">
+
+
+            <li> 
+                <a href="index.html">Home </a>
+            </li>
+
+            
+
+            <li>
+                <a href="about.html">About</a>
+            </li>
+
+            <li>
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+        <div class="anicelines"></div>
+
+
+    </nav>
+    <div class="ANICELOOKINGFORM">
+    <h1 style="text-align: center;">Contact Form</h1>
+    <p style=" text-align: center; font-size: 14px; color: #2d4a3e;">If you'd like to ask about my projects, give feedback, or suggest collaboration, feel free to contact me using this form.</p>
+
+    <form action=""></form>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name"  /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email"  /><br /><br />
+
+      <label for="subject">Subject:</label><br />
+      <input type="text" id="subject" name="subject"  /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="10" style=" width: 100%;padding: 12px;border: 1px solid #2d4a3e;border-radius: 20px;color: #2d4a3e;" ></textarea><br /><br />
+
+      <button type="submit">SUBMIT</button>
+    </form>
+  </div>
+
+    
+</body>
+</html>
